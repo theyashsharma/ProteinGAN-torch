@@ -1,0 +1,1 @@
+{"seq_length": 512, "min_num_examples": 1, "total_records": 16919, "num_of_classes": 1, "num_examples": {"1.1.1.37": 16919}, "class_mapping": {"0": "1.1.1.37"}}

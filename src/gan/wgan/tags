@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Discriminator	discriminator.py	/^class Discriminator(nn.Module):$/;"	c
+F	discriminator.py	/^import torch.nn.functional as F$/;"	i
+F	generator.py	/^import torch.nn.functional as F$/;"	i
+GAN	model.py	/^from gan.gan_base_model import GAN$/;"	i
+WGAN	model.py	/^class WGAN:$/;"	c
+__init__	discriminator.py	/^    def __init__(self, in_shape, labels, df_dim, number_classes, kernel=3, stride=2, pooling='avg', update_collection=None):$/;"	m	class:Discriminator
+__init__	discriminator.py	/^    def __init__(self, in_shape, labels, df_dim, number_classes, width, height, kernel=(3, 3), strides=(2, 2), dilations=(1, 1),$/;"	m	class:discriminator_resnet
+__init__	discriminator.py	/^    def __init__(self, in_shape, labels, df_dim, number_classes, width, height, kernel=3, stride=1, pooling='avg', update_collection=None):$/;"	m	class:orignal_discriminator
+__init__	generator.py	/^    def __init__(self, input_dim, labels, gf_dim, num_classes, kernel=(3, 3), strides=(2, 2), dilations=(1, 1),$/;"	m	class:generator_fully_connected
+__init__	generator.py	/^    def __init__(self, zs_dim, labels, gf_dim, num_classes, kernel=(3, 3), strides=(2, 2), dilations=(1, 1),$/;"	m	class:generator_resnet
+__init__	generator.py	/^    def __init__(self, zs_dim, labels, gf_dim, num_classes, kernel=3, stride=2, pooling='avg'):$/;"	m	class:original_generator
+__init__	model.py	/^    def __init__$/;"	m	class:WGAN
+absolute_import	model.py	/^from __future__ import absolute_import$/;"	i
+block	discriminator.py	/^from common.model.ops import block, leaky_relu$/;"	i
+block	generator.py	/^from common.model.ops import block, leaky_relu$/;"	i
+discriminator_fully_connected	model.py	/^from gan.wgan.discriminator import discriminator_fully_connected, original_discriminator, discriminator_resnet$/;"	i
+discriminator_resnet	discriminator.py	/^class discriminator_resnet(nn.Module):$/;"	c
+discriminator_resnet	model.py	/^from gan.wgan.discriminator import discriminator_fully_connected, original_discriminator, discriminator_resnet$/;"	i
+division	model.py	/^from __future__ import division$/;"	i
+forward	discriminator.py	/^    def forward(self, x):$/;"	m	class:Discriminator
+forward	discriminator.py	/^    def forward(self, x):$/;"	m	class:discriminator_resnet
+forward	discriminator.py	/^    def forward(self, x):$/;"	m	class:orignal_discriminator
+forward	generator.py	/^    def forward(self, zs):$/;"	m	class:generator_fully_connected
+forward	generator.py	/^    def forward(self, zs):$/;"	m	class:generator_resnet
+forward	generator.py	/^    def forward(self, zs):$/;"	m	class:original_generator
+gen	test.py	/^gen = generator.generator_resnet(400, None, 5, None) $/;"	v
+generator	test.py	/^from . import generator$/;"	i
+generator_fully_connected	generator.py	/^class generator_fully_connected(nn.Module):$/;"	c
+generator_fully_connected	model.py	/^from gan.wgan.generator import generator_fully_connected, original_generator, generator_resnet$/;"	i
+generator_resnet	generator.py	/^class generator_resnet(nn.Module):$/;"	c
+generator_resnet	model.py	/^from gan.wgan.generator import generator_fully_connected, original_generator, generator_resnet$/;"	i
+get_discriminator_and_generator	model.py	/^    def get_discriminator_and_generator(self):$/;"	m	class:WGAN
+get_loss	model.py	/^    def get_loss(self, real_x, fake_x, gen_sparse_class, discriminator_real, discriminator_fake):$/;"	m	class:WGAN
+leaky_relu	discriminator.py	/^from common.model.ops import block, leaky_relu$/;"	i
+leaky_relu	generator.py	/^from common.model.ops import block, leaky_relu$/;"	i
+nn	discriminator.py	/^import torch.nn as nn$/;"	i
+nn	discriminator.py	/^import torch.nn.functional as F$/;"	i
+nn	generator.py	/^import torch.nn as nn$/;"	i
+nn	generator.py	/^import torch.nn.functional as F$/;"	i
+nn	test.py	/^import torch.nn as nn$/;"	i
+ops	discriminator.py	/^from common.model import ops$/;"	i
+ops	generator.py	/^from common.model import ops$/;"	i
+original_discriminator	model.py	/^from gan.wgan.discriminator import discriminator_fully_connected, original_discriminator, discriminator_resnet$/;"	i
+original_generator	generator.py	/^class original_generator(nn.Module):$/;"	c
+original_generator	model.py	/^from gan.wgan.generator import generator_fully_connected, original_generator, generator_resnet$/;"	i
+orignal_discriminator	discriminator.py	/^class orignal_discriminator(nn.Module):$/;"	c
+p	test.py	/^p = gen(zs)$/;"	v
+print_function	model.py	/^from __future__ import print_function$/;"	i
+torch	discriminator.py	/^import torch$/;"	i
+torch	discriminator.py	/^import torch.nn as nn$/;"	i
+torch	discriminator.py	/^import torch.nn.functional as F$/;"	i
+torch	generator.py	/^import torch$/;"	i
+torch	generator.py	/^import torch.nn as nn$/;"	i
+torch	generator.py	/^import torch.nn.functional as F$/;"	i
+torch	model.py	/^import torch$/;"	i
+torch	test.py	/^import torch$/;"	i
+torch	test.py	/^import torch.nn as nn$/;"	i
+zs	test.py	/^zs = torch.zeros((100, 400))$/;"	v
